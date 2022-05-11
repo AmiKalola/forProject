@@ -11,3 +11,8 @@ variable "instance_type" {
 }
 
 variable "subnet_id" {}
+
+variable "script_path" {
+    default = "/home/ami/Documents/terraform/thirdProject/modules/ec2"
+  
+}
